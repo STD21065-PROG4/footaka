@@ -4,6 +4,7 @@ import com.company.base2.PojaGenerated;
 import org.springframework.test.context.DynamicPropertyRegistry;
 
 @PojaGenerated
+@SuppressWarnings("all")
 public class EventConf {
 
   void configureProperties(DynamicPropertyRegistry registry) {
